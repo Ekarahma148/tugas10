@@ -39,7 +39,7 @@ footer {
 
 }
 .book {
-  position: relative; /* Enable positioning for child elements */
+  position: relative; 
   border: 2px solid #1b1b1a;
   padding: 10px;
   width: 250px;
@@ -47,8 +47,8 @@ footer {
   border-radius: 8px;
   background-color: rgb(213, 218, 211);
   transition: box-shadow 0.3s;
-  display: flex; /* Use flexbox for layout */
-  flex-direction: column; /* Stack elements vertically */
+  display: flex; 
+  flex-direction: column; 
   align-items: center;
 }
 
@@ -63,19 +63,19 @@ footer {
 }
 
 .heart-icon {
-  position: absolute; /* Position the heart icon absolutely */
-  top: 30px; /* Adjust as needed */
-  right: 10px; /* Adjust as needed */
+  position: absolute; 
+  top: 30px; 
+  right: 10px; 
 }
 
 .info-button {
   display: flex;
-  align-items: center; /* Align items vertically */
-  justify-content: center; /* Center content horizontally */
-  padding: 5px 10px; /* Adjust padding for better spacing */
-  font-size: medium; /* Ensure text size is consistent */
+  align-items: center; 
+  justify-content: center; 
+  padding: 5px 10px; 
+  font-size: medium; 
   cursor: pointer;
-  background-color: rgb(197, 191, 191); /* Adjust background if needed */
+  background-color: rgb(148, 145, 143); 
   border: 2px solid black;
   border-radius: 10px;
   width: 50%;
@@ -106,7 +106,7 @@ width:280px ;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  width:150px ;   
+  width:90px ;   
 }
 
 .popup {

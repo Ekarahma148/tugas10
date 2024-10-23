@@ -50,7 +50,15 @@ function Book(){
           Tahun_terbit:2021,
           Halaman:417
         },
-        
+        {
+          id:6,
+          judul:"Serangkai",
+          image:"src/assets/sera.jpeg",
+          Pengarang:"Valerie Patkar",
+          Penerbit:"Bhuana Ilmu Populer",
+          Tahun_terbit:2021,
+          Halaman:400
+        },
       ]
       const [liked,setLiked]=useState({});
       const [info,setInfo]=useState("");
@@ -93,14 +101,14 @@ function Book(){
         />
         <Search />
         <select  className="sort-select" value={sortOrder} onChange={(e)=>setSortOrder(e.target.value)}>
-          <option value="id-asc">urutkan id</option>
-          <option value="asc">urutkan Judul</option>
-          <option value="Pengarang-asc">urutkan pengarang</option>
+          <option value="id-asc">By id</option>
+          <option value="asc">By Judul</option>
+          <option value="Pengarang-asc">By pengarang</option>
 
         </select>
         <select  className="sort-select" value={sortOrder} onChange={(e)=>setSortOrder(e.target.value)}>
-          <option value="asc">Diurutkan dari A-z</option>
-          <option value="desc">Diurutkan dari Z-A</option>
+          <option value="asc">Ascending</option>
+          <option value="desc">Descending</option>
         </select>
       </div>
       <div className="book-list">
